@@ -20,10 +20,10 @@ requirejs.config({
 });
 
 
-require(['jquery', 'backbone','../router/router'], function ($, Backbone,appRouter ) {
+require(['jquery', 'backbone','../router/router'], function ($, Backbone,appRouter1 ) {
     
         
-                                    var router = new appRouter();
+                                    var router = new appRouter1();
                                     Backbone.history.start();
              });
 
